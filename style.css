@@ -139,6 +139,7 @@ footer .yellow {
             align-items: center;
   }
   header .container .inputlogo {
+    width: 30vh;
     margin: 0;
   }
   header .container .inputlogo input {
@@ -157,6 +158,9 @@ footer .yellow {
   }
   .teamphotos {
     margin-top: -10rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .photo img {
     width: 18rem;
@@ -177,6 +181,7 @@ footer .yellow {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 100%;
   }
   .people .photo img {
     width: 15rem;
@@ -195,6 +200,9 @@ footer .yellow {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  footer a:hover {
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=style.css.map */
