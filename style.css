@@ -1,0 +1,200 @@
+header {
+  text-align: center;
+  background-color: #888;
+  padding: 1rem;
+}
+
+header img {
+  height: 2rem;
+}
+
+header .inputlogo {
+  width: 20vh;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+header .inputlogo i {
+  position: absolute;
+  padding: 0.2rem;
+}
+
+header input {
+  width: 100%;
+  padding: 0 1rem;
+  text-indent: 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slideshow {
+  background: url(https://i.pinimg.com/originals/2e/18/81/2e18812ada907e1a8abfb6c3b1901b6e.jpg);
+  background-size: cover;
+  min-height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slideshow h1 {
+  margin-top: 0;
+  color: #888;
+}
+
+.teamphotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.photo {
+  padding: 0.2rem;
+}
+
+.photo img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.how {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.how h2 {
+  color: #e9ec27;
+  margin-top: 0;
+}
+
+.people {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.people h3 {
+  color: #e9ec27;
+  margin: 0 0 0.5rem 0;
+}
+
+.people .photo a {
+  text-decoration: none;
+  color: #888;
+}
+
+.people .photo a:hover {
+  font-weight: bold;
+}
+
+.people .photo img {
+  height: 10rem;
+  width: 10rem;
+}
+
+footer {
+  text-align: center;
+  min-height: 40vh;
+  background-color: #888;
+  padding-bottom: 1rem;
+}
+
+footer h3 {
+  color: #e9ec27;
+}
+
+footer a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .yellow {
+  background-color: #f3f317;
+  height: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .container .inputlogo {
+    margin: 0;
+  }
+  header .container .inputlogo input {
+    text-indent: 1.5rem;
+    padding: 0.2rem 0;
+  }
+  header .container .inputlogo i {
+    padding: 0.4rem 0.3rem;
+  }
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .slideshow {
+    min-height: 60vh;
+  }
+  .teamphotos {
+    margin-top: -10rem;
+  }
+  .photo img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .people {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .people .photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .people .photo img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .people .name {
+    padding: 0.5rem;
+  }
+  footer {
+    min-height: 15vh;
+  }
+  footer section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=style.css.map */

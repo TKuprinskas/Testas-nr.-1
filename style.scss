@@ -1,0 +1,163 @@
+header {
+  text-align: center;
+  background-color: #888;
+  padding: 1rem;
+  img {
+    height: 2rem;
+  }
+  .inputlogo {
+    width: 20vh;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+  }
+  .inputlogo i {
+    position: absolute;
+    padding: 0.2rem;
+  }
+  input {
+    width: 100%;
+    padding: 0 1rem;
+    text-indent: 0.5rem;
+    box-sizing: border-box;
+  }
+}
+
+.slideshow {
+  background: url(https://i.pinimg.com/originals/2e/18/81/2e18812ada907e1a8abfb6c3b1901b6e.jpg);
+  background-size: cover;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin-top: 0;
+    color: #888;
+  }
+}
+
+.teamphotos {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.photo {
+  padding: 0.2rem;
+  img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.how {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 75%;
+  h2 {
+    color: rgb(233, 236, 39);
+    margin-top: 0;
+  }
+}
+
+.people {
+  text-align: center;
+  margin-bottom: 2rem;
+  h3 {
+    color: rgb(233, 236, 39);
+    margin: 0 0 0.5rem 0;
+  }
+  .photo a {
+    text-decoration: none;
+    color: #888;
+  }
+  .photo a:hover {
+    font-weight: bold;
+  }
+  .photo img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
+footer {
+  text-align: center;
+  min-height: 40vh;
+  background-color: #888;
+  padding-bottom: 1rem;
+  h3 {
+    color: rgb(233, 236, 39);
+  }
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  .yellow {
+    background-color: rgb(243, 243, 23);
+    height: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .inputlogo {
+      margin: 0;
+      input {
+        text-indent: 1.5rem;
+        padding: 0.2rem 0;
+      }
+      i {
+        padding: 0.4rem 0.3rem;
+      }
+    }
+  }
+
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .slideshow {
+    min-height: 60vh;
+  }
+
+  .teamphotos {
+    margin-top: -10rem;
+  }
+
+  .photo img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .people {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    .photo {
+      display: flex;
+      align-items: center;
+      img {
+        width: 15rem;
+        height: 15rem;
+      }
+    }
+    .name {
+      padding: 0.5rem;
+    }
+  }
+
+  footer {
+    min-height: 15vh;
+    section {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
