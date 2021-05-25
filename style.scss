@@ -1,6 +1,9 @@
+$primary: #888;
+$secondary: rgb(233, 236, 39);
+
 header {
   text-align: center;
-  background-color: #888;
+  background-color: $primary;
   padding: 1rem;
   img {
     height: 2rem;
@@ -31,7 +34,7 @@ header {
   align-items: center;
   h1 {
     margin-top: 0;
-    color: #888;
+    color: $primary;
   }
 }
 
@@ -57,7 +60,7 @@ header {
   margin: 0 auto;
   width: 75%;
   h2 {
-    color: rgb(233, 236, 39);
+    color: $secondary;
     margin-top: 0;
   }
 }
@@ -66,12 +69,12 @@ header {
   text-align: center;
   margin-bottom: 2rem;
   h3 {
-    color: rgb(233, 236, 39);
+    color: $secondary;
     margin: 0 0 0.5rem 0;
   }
   .photo a {
     text-decoration: none;
-    color: #888;
+    color: $primary;
   }
   .photo a:hover {
     font-weight: bold;
@@ -85,10 +88,10 @@ header {
 footer {
   text-align: center;
   min-height: 40vh;
-  background-color: #888;
+  background-color: $primary;
   padding-bottom: 1rem;
   h3 {
-    color: rgb(233, 236, 39);
+    color: $secondary;
   }
   a {
     display: block;
@@ -96,7 +99,7 @@ footer {
     text-decoration: none;
   }
   .yellow {
-    background-color: rgb(243, 243, 23);
+    background-color: $secondary;
     height: 1rem;
   }
 }
