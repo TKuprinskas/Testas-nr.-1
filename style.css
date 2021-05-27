@@ -106,7 +106,6 @@ header input {
 
 footer {
   text-align: center;
-  min-height: 40vh;
   background-color: #888;
   padding-bottom: 1rem;
 }
@@ -190,9 +189,7 @@ footer .yellow {
   .people .name {
     padding: 0.5rem;
   }
-  footer {
-    min-height: 15vh;
-  }
+
   footer section {
     display: -webkit-box;
     display: -ms-flexbox;
