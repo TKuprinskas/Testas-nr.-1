@@ -87,7 +87,6 @@ header {
 
 footer {
   text-align: center;
-  min-height: 40vh;
   background-color: $primary;
   padding-bottom: 1rem;
   h3 {
@@ -160,7 +159,6 @@ footer {
   }
 
   footer {
-    min-height: 15vh;
     section {
       display: flex;
       justify-content: space-between;
